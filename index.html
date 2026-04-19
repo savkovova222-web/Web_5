@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CV - Savchuk Volodymyr </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme"> <header>
+        <button id="theme-toggle">Toggle Theme (Day/Night)</button>
+    </header>
+    <main>
+        <h1> Savchuk Volodymyr's CV </h1>
+        
+        <h2> Personal information </h2>
+        <p>
+            Name: Volodymyr<br>
+            Surname: Savchuk<br>
+            Age: 18<br>
+            Phone number: 0505059863<br>
+            Email: savkovovoa222@gmail.com
+        </p>
+        
+        <h2> Education </h2>
+        <p>
+            Major: Cybersecurity<br>
+            University: Lviv Polytechnic National University<br>
+            Years: 2024 - 2028        
+        </p>
+        
+        <h2> Languages </h2>
+        <ul>
+            <li> Ukrainian: native </li>
+            <li> English: B2 </li>
+            <li> Italian: novice </li>
+        </ul>
+        
+        <h2> Soft skills </h2>
+        <ul>
+            <li> Friendly </li>
+            <li> Communicative </li>
+            <li> Cooperative </li>
+            <li> Quick learner </li>
+            <li> Time management </li>
+        </ul>
+        
+        <h2> Hard skills </h2>
+        <ul>
+            <li> Base knowledge in Python </li>
+            <li> Experience in making audits </li>
+            <li> Base knowledge in C# </li>
+            <li> Experience in working with databases </li>
+        </ul>   
+        <h2> Working experience </h2>
+        <p>
+            1. Cashier in Silpo for 1.5 months<br>
+            2. Storage worker and expeditioner for 1.5 months
+        </p>
+
+        <h2> Previous Employers' Comments </h2>
+        <div id="comments-container">
+            </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Your System & Browser: <span id="os-browser-info"></span></p>
+    </footer>
+
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h2>Leave Feedback</h2>
+            
+            <form action="https://formspree.io/f/xdapprew" method="POST">
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone:</label>
+                    <input type="tel" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
